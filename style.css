@@ -1,0 +1,99 @@
+body {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8; /* Example background color */
+}
+
+.left-nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.search input {
+    outline: none;
+    padding: 5px;
+}
+
+.search img {
+    width: 20px;
+    height: auto;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 25px;
+    padding: 0;
+}
+
+.right-nav li {
+    display: flex;
+}
+
+.right-nav a {
+    text-decoration: none;
+    color: grey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width: calc(25% - 20px); /* Four items per row with some gap */
+    align-items: center;
+    padding: 5px; /* Reduced padding */
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 80px; /* Reduced image width */
+    height: auto;
+    margin: 5px; /* Reduced margin */
+}
+
+.product p, .product h3 {
+    margin: 5px 0; /* Reduced margin */
+    text-align: center; /* Center-align text */
+}
+
+.Rating {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 0; /* Reduced padding */
+}
